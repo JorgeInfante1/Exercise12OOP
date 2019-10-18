@@ -1,6 +1,6 @@
 package com.exercise12oop.model;
 
-public interface Shapeable 
+public interface Shapeable
 {
 	public String Draw();
 	public String ChangeColor();

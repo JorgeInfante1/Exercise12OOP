@@ -1,6 +1,6 @@
 package com.exercise12oop.model;
 import java.lang.Math;
-public class Circle extends Shape
+public  class Circle extends Shape
 {
     private double radio;
     
@@ -29,4 +29,9 @@ public class Circle extends Shape
     {
     	this.radio=radio;
     }
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
+	}
 }

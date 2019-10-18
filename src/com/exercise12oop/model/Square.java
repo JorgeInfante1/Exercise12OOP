@@ -1,6 +1,6 @@
 package com.exercise12oop.model;
 
-public class Square extends Shape
+public  class Square extends Shape
 {
 	private double side;
 	
@@ -31,6 +31,12 @@ public class Square extends Shape
 	public void setSide(double side)
 	{
 		this.side=side;
+	}
+
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

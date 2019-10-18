@@ -1,11 +1,13 @@
 package com.exercise12oop.model;
 
 import java.lang.Math;
-public class Triangle extends Shape 
+public class Triangle extends Shape
 {
     private double base;
     private double height;
-    
+    public double area;
+    private double perimeter;
+    protected String name;
     
     public Triangle()
     {
@@ -43,4 +45,10 @@ public class Triangle extends Shape
     {
     	 this.height=height;
     }
+
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -2,6 +2,7 @@ package com.exercise12oop.app;
 import com.exercise12oop.model.Square;
 import com.exercise12oop.model.Circle;
 import com.exercise12oop.model.Triangle;
+import com.exercise12oop.model.Shape;
 import java.util.Scanner;
 public class ShapeApp 
 {
@@ -18,7 +19,11 @@ public class ShapeApp
 	    Circle circle2=new Circle(5.3);
 	    Triangle triangle2 = new Triangle(5.4,6.8);
 	    
+	    
+	    //Shape shape=new Shape();
+	    
 	    Scanner input=new Scanner(System.in);
+	    
 	    System.out.println("Input the radio of the circle: ");
 	    radio=input.nextDouble();
 	    
